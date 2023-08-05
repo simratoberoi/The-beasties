@@ -1,0 +1,75 @@
+body {
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-top: 0px;
+}
+
+#banner {
+  background-image: url('images/bg.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 200px;
+  text-align: center;
+  height: 50vh;
+}
+#opensea{
+  margin-top: 25%;
+  border: transparent;
+  background-color: #284042;
+  color: #fff;
+  width: 300px;
+  font-size: 20px;
+  font-family: 'Raleway';
+  height: 60px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+#opensea:hover {
+  background-color: rgb(59, 88, 77); 
+}
+#content {
+  background-color: #ffff;
+  padding: 50px;
+  color: rgb(40, 40, 40);
+  padding-bottom: 2%;
+}
+
+#services {
+  background-color: #fff;
+  padding: 50px;
+  padding-top: 0;
+}
+
+#contact {
+  background-color: #fff;
+  padding: 50px;
+  padding-top: 0%;
+}
+
+footer {
+  background-color: #284042;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  #banner {
+    background-image: url('images/mb.png');
+  }
+}
+
+#table{
+  height: 1000px;
+  align-items: center;
+  align-self: center;
+  padding-left: 300px;
+}
+#twitter, #gmail, #insta{
+  height: 70px;
+  width: 70px;
+}
